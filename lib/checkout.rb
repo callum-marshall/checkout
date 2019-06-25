@@ -4,7 +4,7 @@ class Shop
     return 50 if items == 'A'
     return 30 if items == 'B'
     return 20 if items == 'C'
-    15
+    return 15 if items == 'D'
   end
 
 end
